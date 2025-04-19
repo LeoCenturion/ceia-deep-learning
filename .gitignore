@@ -5,3 +5,8 @@ mlruns/*
 
 # Pycache
 __pycache__/*
+.aider*
+/.ipynb_checkpoints/*.ipynb
+/client_secret_1095028420845-kqe7klstsrus2o0bb4a05n7ms2eofp46.apps.googleusercontent.com.json
+/token.json
+/weights-and-history.zip
