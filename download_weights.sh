@@ -6,11 +6,11 @@
 set -e
 
 # Google Drive File ID from the shared link
-FILE_ID="1N8jtxU7mJbeIIYt8MvAKU5wDDYFWHxC3"
+FILE_ID="1ytN-kDuSOc9vsCisEAer9RG7tdhVvZqc"
 # Output filename for the downloaded zip
 OUTPUT_ZIP="weights-and-history.zip"
 # Google Drive download URL format
-DOWNLOAD_URL="https://drive.google.com/uc?export=download&id=${FILE_ID}"
+DOWNLOAD_URL="https://drive.google.com/file/d/1ytN-kDuSOc9vsCisEAer9RG7tdhVvZqc/view?usp=drive_link"
 
 echo "Downloading ${OUTPUT_ZIP} from Google Drive..."
 # Use wget to download. -O specifies the output file.
